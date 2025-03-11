@@ -17,7 +17,42 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Node.js (frontend)
+node_modules/
+client/node_modules/
+client/build/
+
+# React environment files
+client/.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot (backend)
+server/target/
+server/.idea/
+server/.classpath
+server/.project
+server/.settings/
+server/bin/
+server/src/main/resources/application.properties
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Miscellaneous
+*.log
+server/src/main/java/com/weather/weda/Oracle_JDK-23/
